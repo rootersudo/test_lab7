@@ -26,7 +26,7 @@ int main() {
 	ifstream fin("TextFile2.txt");
 while (!fin.eof())
 	{
-		fin >> str;
+		fin >> str;//karetka
 		count++;
 	}
 while (!fin.eof())
